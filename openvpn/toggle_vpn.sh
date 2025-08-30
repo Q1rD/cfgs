@@ -1,4 +1,5 @@
 #!/bin/bash
+# sudo setcap cap_net_admin+ep /usr/sbin/openvpn
 
 CFG_DIR="$HOME/openvpn/cfgs"
 PID_FILE="$HOME/openvpn/openvpn.pid"
